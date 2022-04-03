@@ -4,7 +4,7 @@ import CustomLink from "../CustomLink/CustomLink";
 
 const Header = () => {
   return (
-    <div className="sticky top-0 bg-white py-5">
+    <div className=" bg-white py-5">
       <div className="gap-5 text-xl font-bold flex justify-center">
         <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="/reviews">REVIEWS</CustomLink>
