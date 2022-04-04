@@ -1,7 +1,6 @@
 import React from 'react';
 import useReviews from '../../Hook/useReviews';
 import ReviewCart from '../ReviewCart/ReviewCart';
-import './CustomReview.css';
 import { Outlet, Link } from "react-router-dom";
 
 const CustomReview = () => {
@@ -18,7 +17,7 @@ const CustomReview = () => {
           ))}
         </div>
 
-        <Link to="/" className="flex justify-center">
+        <Link to="reviews" className="flex justify-center">
           <button className="mt-10 bg-indigo-600 rounded py-2 font-bold text-cyan-50 px-20">
             See All Reviews
           </button>
