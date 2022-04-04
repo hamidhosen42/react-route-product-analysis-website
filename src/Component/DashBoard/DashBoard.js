@@ -52,6 +52,7 @@ const DashBoard = () => {
             <XAxis dataKey="month"></XAxis>
             <YAxis></YAxis>
             <Tooltip></Tooltip>
+            <Legend />
           </LineChart>
         </div>
       </div>

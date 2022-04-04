@@ -1,5 +1,5 @@
 import React from 'react';
-import useReviews from '../../Hook/useReviews';
+import useReviews from '../../CustomHook/useReviews';
 import ReviewCart from '../ReviewCart/ReviewCart';
 import { Outlet, Link } from "react-router-dom";
 

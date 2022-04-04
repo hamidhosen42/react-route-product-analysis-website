@@ -36,11 +36,30 @@ const Blog = () => {
             using semantic markup, you help the browser understand the meaning
             of the content instead of just displaying it. By providing this
             extra level of clarity, HTML5 semantic elements also help search
-            engines to read the page and find the required information faster. 
-            For example header, nav, section, article, aside, and footer act more or less like div elements.
+            engines to read the page and find the required information faster.
+            For example header, nav, section, article, aside, and footer act
+            more or less like div elements.
           </p>
         </div>
-        <div></div>
+        <div>
+          <h1 className="font-bold text-lg flex justify-center mb-5 mt-5">
+            Inline block vs Inline-block elements
+          </h1>
+          <p>
+            <span className="font-bold">Inline</span> The element doesn’t start
+            on a new line and only occupy just the width it requires. You can’t
+            set the width or height. Compared to display: inline, the major
+            difference is that display: inline-block allows to set a width and
+            height on the element.{" "}
+            <span className="font-bold">inline-block</span> It’s formatted just
+            like the inline element, where it doesn’t start on a new line. BUT,
+            you can set width and height values. inline-block It’s formatted
+            just like the inline element, where it doesn’t start on a new line.
+            BUT, you can set width and height values.Also, with display:
+            inline-block, the top and bottom margins/paddings are respected, but
+            with display: inline they are not.
+          </p>
+        </div>
       </div>
     );
 };
